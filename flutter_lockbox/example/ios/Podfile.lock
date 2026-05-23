@@ -1,0 +1,34 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_lockbox (0.0.1):
+    - Flutter
+    - Lockbox
+  - integration_test (0.0.1):
+    - Flutter
+  - Lockbox (1.0.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_lockbox (from `.symlinks/plugins/flutter_lockbox/ios`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - Lockbox (from `../../../core/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_lockbox:
+    :path: ".symlinks/plugins/flutter_lockbox/ios"
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  Lockbox:
+    :path: "../../../core/ios"
+
+SPEC CHECKSUMS:
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  flutter_lockbox: 8cf3e61df205d19bff16fc49443c8db06c19254b
+  integration_test: 4a889634ef21a45d28d50d622cf412dc6d9f586e
+  Lockbox: a3606508900d46648f1189bccff3f912f43527ee
+
+PODFILE CHECKSUM: 4826a37392fec8362a9513fc04f4bfa0491ce27b
+
+COCOAPODS: 1.16.2
