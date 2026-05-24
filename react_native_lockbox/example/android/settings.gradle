@@ -1,0 +1,9 @@
+pluginManagement { includeBuild("../node_modules/@react-native/gradle-plugin") }
+plugins { id("com.facebook.react.settings") }
+extensions.configure(com.facebook.react.ReactSettingsExtension){ ex -> ex.autolinkLibrariesFromCommand() }
+rootProject.name = 'reactnativelockbox.example'
+include ':app'
+includeBuild('../node_modules/@react-native/gradle-plugin')
+
+include ':core:android'
+project(':core:android').projectDir = new File(settingsDir, '../../../core/android')
